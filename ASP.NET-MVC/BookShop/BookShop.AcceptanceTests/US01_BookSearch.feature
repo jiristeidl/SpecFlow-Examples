@@ -16,7 +16,7 @@ Background:
 		|Ted Pattison	|Inside Windows SharePoint Services	|
 		|Gojko Adzic	|Bridging the Communication Gap		|
 
-
+@web
 Scenario: Title should be matched
 	When I search for books by the phrase 'Domain'
 	Then the list of found books should contain only: 'Domain Driven Design'
